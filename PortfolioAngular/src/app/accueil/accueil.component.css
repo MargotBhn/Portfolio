@@ -1,0 +1,9 @@
+.jumbotron{
+    padding: 3rem 1rem;
+    background-color: #a3b899;
+}
+
+.spacer{
+    height: 70px;
+    background-color: var(--background);
+}
