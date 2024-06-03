@@ -1,1 +1,59 @@
-<p>projets works!</p>
+<div class="custom-bg">
+    <div class="container">
+        <div class="category-italic-font">
+            Projets Web
+        </div>
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-md-center align-items-center">
+                <img src="{{selectedProject.image}}" class="img-fluid rounded"/>
+                <!-- <img src="{{selectedProject.links[0].image}}" class="img-fluid rounded"/> -->
+            </div>
+            <div class="col-md-6 ">
+                <div>
+                    <button
+                        type="button"
+                        class="btn custom-btn btn-md "
+                        (click)="selectProject(0)"
+                        [ngClass]="{'custom-active-btn': selectedProjectIndex === 0}">
+                        <span style="font-size: 1.5rem; width: 30px; height: 30px; display: inline-flex; justify-content: center; align-items: center;">1</span>
+                    </button>
+                    <button
+                        type="button"
+                        class="btn custom-btn btn-md "
+                        (click)="selectProject(1)"
+                        [ngClass]="{'custom-active-btn': selectedProjectIndex === 1}">
+                        <span style="font-size: 1.5rem; width: 30px; height: 30px; display: inline-flex;  justify-content: center; align-items: center;">2</span>
+                    </button>
+                </div>
+   
+                <div class="project-name">
+                    {{selectedProject.title}}
+                </div>
+                <div class="row ">
+                    <div *ngFor="let description of selectedProject.descriptions" class="d-inline justify-text">
+                        <div class="main-text">{{description}} </div>
+                                              
+                    </div>
+                <div class="row d-inline">
+                    <div *ngFor="let langage of selectedProject.langages" class="d-inline">
+                        {{langage}}
+                    </div>
+                </div>
+
+                <div class="row">
+                    <ul class="list link">
+                        <li *ngFor="let link of selectedProject.links" class="d-inline list-icon">
+                            <a href={{link.url}} class="link-icon">
+                                <img src="{{link.image}}" class="img-icon"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+  
+
+
+
+            </div>
+        </div>
+    </div>
+</div>

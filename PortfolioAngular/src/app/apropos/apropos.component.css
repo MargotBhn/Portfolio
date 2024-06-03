@@ -1,3 +1,13 @@
 .propos{
     background-color: var(--background);
 }
+
+.spacer{
+    height: 50px;
+    background-color: var(--background);
+}
+
+.resize-image{
+    width: 300px;
+    height: auto;
+}
