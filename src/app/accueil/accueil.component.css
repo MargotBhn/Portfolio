@@ -1,15 +1,47 @@
-.jumbotron{
-    padding: 3rem 1rem;
-    background-color: #a3b899;
-}
-
 .spacer{
     height: 56px;
     background-color: var(--background);
 }
 
-.title-container{
-    /* background-color: #f8d3c5; */
-    background-color: #dde6d5;
-    border-radius: 15px;
-  }
+.background-image{
+    background-image: url('/nature/champignon2.png');
+    background-size: 100% auto;
+    background-position: center ;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.title-font{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: #ffffff;
+    padding-top: 0.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.subtitle-font{
+    margin-top: 30px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff;
+    padding-bottom: 1em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1200px) {
+    .title-font {
+        font-size: 50px;
+    }
+    .subtitle-font {
+        font-size: 40px;
+    }
+    /* .container-fluid {
+        padding: 2em;
+    } */
+    .background-image{
+        background-size: auto 100%;
+    }
+}

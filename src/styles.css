@@ -8,7 +8,7 @@
 
 html {
     background-color: var(--background);
-}
+} 
 
 
 body {
@@ -26,22 +26,8 @@ body {
   }
 
 
-.title-font{
-    font-family: Inter, sans-serif;
-    font-feature-settings: 'liga' 1, 'calt' 1;
-    font-weight: 800;
-    font-size: 60px;
-    color: #171d19;
-}
 
-.subtitle-font{
-    margin-top: 30px;
-    font-family: Inter, sans-serif;
-    font-feature-settings: 'liga' 1, 'calt' 1;
-    font-weight: 400;
-    font-size: 35px;
-    color: #192c1e;
-}
+
 
 .category-italic-font{
     font-family: Inter, sans-serif;
@@ -75,4 +61,16 @@ body {
 
 .img-shadow {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amatic-sc-bold {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }

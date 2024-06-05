@@ -1,5 +1,6 @@
 .bg-custom{
-    background-color: var(--background);
+    background-color: rgba(252, 238, 233, 0.8);
+    /* background-color: var(--background); */
 }
 
 
@@ -7,6 +8,7 @@ a {
     color: black;
     position: relative;
     text-decoration: none;
+  
   }
   
   a::before {
