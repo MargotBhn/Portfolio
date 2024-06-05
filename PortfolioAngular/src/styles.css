@@ -3,6 +3,7 @@
 :root{
     --background: #fceee9;
     --text-color: #192c1e;
+    --alternative-bg-color: #f8d3c5;
 }
 
 html {
@@ -53,15 +54,25 @@ body {
 }
 
 .main-text{
-
-
   font-family: Inter, sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1;
-  font-weight: 300;
+  font-weight:400;
   font-size: 1em;
   text-align: justify;
   color: #485e4d;
 }
 .custom-bg{
   background-color: var(--background);
+}
+
+.alternative-bg{
+  background-color: var(--alternative-bg-color);
+}
+
+.top-padding{
+  padding-top: 1em;
+}
+
+.img-shadow {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }

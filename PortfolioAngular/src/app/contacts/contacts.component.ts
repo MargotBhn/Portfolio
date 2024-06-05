@@ -8,5 +8,12 @@ import { Component } from '@angular/core';
   styleUrl: './contacts.component.css'
 })
 export class ContactsComponent {
+  mail: string = "bihanmargot@gmail.com"
 
+  hideMail : boolean = true
+
+  toogleDisplay()
+  {
+    this.hideMail = !this.hideMail
+  }
 }

@@ -1,0 +1,16 @@
+.collapse-mail-icon{
+    width: 40px;
+    height: auto;
+}
+
+.collapse-mail-icon:hover{
+    animation: bounce 0.5s ease infinite;
+}
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
