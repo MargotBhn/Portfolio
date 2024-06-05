@@ -19,10 +19,8 @@ Ce portfolio est construit avec les technologies suivantes :
 
 ## Déploiement
 
-Ce portfolio sera hebergé gratuitement sur GitHub Pages. (A venir)
-<!--
-Ce portfolio est actuellement hébergé gratuitement sur GitHub Pages. [Lien vers le portfolio](https://votreutilisateur.github.io/mon-portfolio/)
--->
+Ce portfolio est actuellement hébergé gratuitement sur GitHub Pages. [Lien vers le portfolio](https://margotbhn.github.io/Portfolio/)
+
 
 ## Projets Futurs
 
