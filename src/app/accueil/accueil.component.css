@@ -9,6 +9,7 @@
     background-position: center ;
     background-repeat: no-repeat;
     overflow-x: hidden;
+    opacity: 0.8;
 }
 
 .title-font{
@@ -38,10 +39,9 @@
     .subtitle-font {
         font-size: 40px;
     }
-    /* .container-fluid {
-        padding: 2em;
-    } */
-    .background-image{
+
+
+.background-image{
         background-size: auto 100%;
     }
 }

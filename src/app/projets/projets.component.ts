@@ -29,7 +29,6 @@ export class ProjetsComponent {
         ],
       links :[
         {image: "github-fill.svg", url: "https://github.com/MargotBhn/Transcendence"},
-        {image: "youtube-fill.svg", url: "https://youtu.be/qQSJd5c-IV8?si=CtI7CthxGXgotSFf"}
       ],
     },
     {

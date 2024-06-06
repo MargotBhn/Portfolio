@@ -2,8 +2,11 @@
 
 :root{
     --background: #fceee9;
-    --text-color: #192c1e;
     --alternative-bg-color: #f8d3c5;
+    --main-text-color:#485e4d;
+    --title-text-color: #192c1e;
+    --light-bg-button:#a3b899;
+    --darker-bg-button:#667b68;
 }
 
 html {
@@ -12,41 +15,50 @@ html {
 
 
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 700;
   }
   
   p, a, li {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 400;
   }
 
 
 
-
-
 .category-italic-font{
-    font-family: Inter, sans-serif;
-    font-feature-settings: 'liga' 1, 'calt' 1;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 600;
     font-style: italic;
-    font-size: 40px;
-    color: #192c1e;
-    margin-bottom: 1em;
+    font-size: 3em;
+    color: var(--title-text-color);
+    margin-bottom: 0.5em;
 }
 
 .main-text{
-  font-family: Inter, sans-serif;
-  font-feature-settings: 'liga' 1, 'calt' 1;
-  font-weight:400;
-  font-size: 1em;
+  font-size: large;
   text-align: justify;
-  color: #485e4d;
+  color: var(--main-text-color);
 }
+
+.caption-text{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
+  font-size:medium;
+  color: var(--main-text-color);
+}
+
 .custom-bg{
   background-color: var(--background);
 }
@@ -73,4 +85,7 @@ body {
   font-family: "Amatic SC", sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+.bloc-spacer{
+  padding-top: 50px;
 }

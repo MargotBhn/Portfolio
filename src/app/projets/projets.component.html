@@ -1,32 +1,33 @@
-<div class="alternative-bg">
+<div class="custom-bg">
+    <div class="bloc-spacer"></div>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <div class="row">
-                    <span class="project-title category-italic-font">Projets Web</span>
-                </div>
-                <div class="row">
+            <span class="project-title category-italic-font">Projets Web</span>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="button-margin">
+            <button
+                class="round-projects-button"
+                (click)="selectProject(0)"
+                [ngClass]="{'active-round-project-button': selectedProjectIndex === 0}">
+                <span class="button-index-text">1</span>
+            </button>
+
+            <button
+                class="round-projects-button"
+                (click)="selectProject(1)"
+                [ngClass]="{'active-round-project-button': selectedProjectIndex === 1}">
+                <span class="button-index-text">2</span>
+            </button>
+        </div>
+    </div>
+    <div class="container rounded project-shadow">
+        <div class="row justify-content-md-center align-items-center ">
+            <div class="col-md-6 text-center">
                     <img src="{{selectedProject.image}}" class="img-fluid rounded"/>
-                </div>
             </div>
             <div class="col-md-6 ">
-                <div class="button-selection">
-                    <button
-                        type="button"
-                        class="btn custom-btn btn-md img-shadow"
-                        (click)="selectProject(0)"
-                        [ngClass]="{'custom-active-btn': selectedProjectIndex === 0}">
-                        <span style="font-size: 1.5rem; width: 30px; height: 30px; display: inline-flex; justify-content: center; align-items: center;">1</span>
-                    </button>
-                    <button
-                        type="button"
-                        class="btn custom-btn btn-md img-shadow"
-                        (click)="selectProject(1)"
-                        [ngClass]="{'custom-active-btn': selectedProjectIndex === 1}">
-                        <span style="font-size: 1.5rem; width: 30px; height: 30px; display: inline-flex;  justify-content: center; align-items: center;">2</span>
-                    </button>
-                </div>
-                
                 <div class="row">
                     <span class="project-name">{{selectedProject.title}}</span>
                 </div>
@@ -38,8 +39,8 @@
                 </div>
                 <div class="row">
                     <ul>
-                        <li *ngFor="let skill of selectedProject.skills" class="justify-text skill-list">
-                            <span  class="main-text">{{skill}}</span>
+                        <li *ngFor="let skill of selectedProject.skills" class="main-text skill-list">
+                            <span>{{skill}}</span>
                         </li>
                     </ul>
                 </div>
@@ -64,4 +65,5 @@
             </div>
         </div>
     </div>
+    <div class="bloc-spacer"></div>
 </div>

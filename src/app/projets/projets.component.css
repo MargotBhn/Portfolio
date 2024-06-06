@@ -1,87 +1,51 @@
+.project-text-margin{
+  margin-bottom: 1em;
+}
+
+.project-border{
+  border: 3px dashed white;
+  /* border: 2px dashed var(--background); */
+
+  border-radius: 2%;
+  padding-top: 20px;
+}
+
+.spacer{
+  padding-bottom: 3em;
+}
+
+/* TEXT */
+
 .project-title{
-  text-align: center;
-  margin-top: 11px;
+  text-align: left;
 }
 
 .project-name{
-    margin-top: 1em;
-    margin-bottom: 1em;
-    font-family: Inter, sans-serif;
-    font-feature-settings: 'liga' 1, 'calt' 1;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 2em;
 }
+.skill-list{
+  margin-left: 2em;
+}
+
+/* PROJECT IMAGE */
 
 .project-image{
     width: 600px;
     height: auto;
 }
 
-.custom-btn{
-
-  font-family: Inter, sans-serif;
-  font-feature-settings: 'liga' 1, 'calt' 1;
-  font-weight: 800;
-  margin-right: 1em;
-
-  --bs-btn-color: #f8d3c5; 
-  --bs-btn-bg: #a3b899;
-  --bs-btn-hover-color: #f8d3c5;
-  --bs-btn-hover-bg: #667b68;
-}
-  
-
-.custom-active-btn{
-
-  font-family: Inter, sans-serif;
-  font-feature-settings: 'liga' 1, 'calt' 1;
-  font-weight: 800;
-  margin-right: 1em;
-
-  --bs-btn-color: #f8d3c5; 
-  --bs-btn-bg: #667b68;
-  --bs-btn-hover-color: #f8d3c5;
-  --bs-btn-hover-bg: #667b68;
-}
-
-.button-selection{
-  margin-top: 20px;
-}
-
-.justify-text{
-  text-align: justify;
+              
+.project-shadow{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 
-.link-icon{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%; 
-  border: 2px solid var(--alternative-bg-color); 
-  padding: 4px; 
-  box-sizing: border-box; 
-  background-color: var(--alternative-bg-color); 
-  
-}
-
-.link-icon:hover  {
-  background-color: var(--background);
-}
-
-
-.skill-list{
-  margin-left: 2em;
-}
-
-.project-text-margin{
-  margin-bottom: 1em;
-}
-
-.project-border{
-  border: 2px dashed var(--background);
-  border-radius: 2%;
-  padding-top: 20px;
-}
+/* LANGAGES ICONS */
 
 .tech-icon{
   width: 40px;
@@ -89,13 +53,69 @@
 }
 
 .langage-name{
-  font-family: Inter, sans-serif;
-  font-feature-settings: 'liga' 1, 'calt' 1;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 300;
   font-style: italic;
-  font-size: 15px;
+  font-size:medium;
   text-align: center;
   color: #485e4d;
 }
 
+/* LINK ICONS */
 
+.link-icon{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; 
+  /* border: 2px solid var(--alternative-bg-color);  */
+  padding: 4px; 
+  box-sizing: border-box; 
+  background-color: var(--background); 
+  
+}
+
+.link-icon:hover  {
+  /* background-color: var(--alternative-bg-color); */
+    border: 5px dotted var(--light-bg-button); 
+}
+
+/* PROJECT SELECTION BUTTONS*/
+
+.round-projects-button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--light-bg-button);
+  color: white; 
+  font-size: 20px; 
+  text-align: center;
+  line-height: 50px; 
+  border: none;
+  display: inline-block; 
+  color: var(--main-text-color);
+  margin-right: 20px;
+}
+
+.round-projects-button:hover{
+  background-color: var(--darker-bg-button);
+  color: var(--background);
+}
+
+.round-projects-button:last-child {
+  margin-right: 0;
+}
+
+.button-index-text{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.active-round-project-button{
+  background-color: var(--darker-bg-button);
+  color: var(--background);
+}
+
+.button-margin{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
