@@ -5,6 +5,10 @@
 
 .background-image{
     background-image: url('/champignon2.png');
+    /* for build */
+    /* background-image: url('/Portfolio/champignon2.png'); */
+
+
     background-size: 100% auto;
     background-position: center ;
     background-repeat: no-repeat;
