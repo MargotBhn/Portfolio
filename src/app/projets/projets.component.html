@@ -39,7 +39,7 @@
                 </div>
                 <div class="row">
                     <ul>
-                        <li *ngFor="let skill of selectedProject.skills" class="main-text skill-list">
+                        <li *ngFor="let skill of selectedProject.skills" class="main-text skill-list justify-text">
                             <span>{{skill}}</span>
                         </li>
                     </ul>
@@ -54,7 +54,7 @@
                 </div>
 
                 <div class="row">
-                    <ul class="top-padding">
+                    <ul class="link-icon-container">
                         <li *ngFor="let link of selectedProject.links" class="d-inline mx-2">
                             <a href={{link.url}}>
                                 <img src="{{link.image}}" class="link-icon"/>

@@ -32,6 +32,11 @@
   margin-left: 2em;
 }
 
+.justify-text{
+  text-align: justify;
+  padding-right: 2em;
+}
+
 /* PROJECT IMAGE */
 
 .project-image{
@@ -64,20 +69,25 @@
 
 /* LINK ICONS */
 
+.link-icon-container{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .link-icon{
   width: 50px;
   height: 50px;
   border-radius: 50%; 
-  /* border: 2px solid var(--alternative-bg-color);  */
   padding: 4px; 
   box-sizing: border-box; 
   background-color: var(--background); 
-  
+
+ 
 }
 
 .link-icon:hover  {
-  /* background-color: var(--alternative-bg-color); */
-    border: 5px dotted var(--light-bg-button); 
+  border: 3px solid var(--background)
+
 }
 
 /* PROJECT SELECTION BUTTONS*/
@@ -116,6 +126,5 @@
 }
 
 .button-margin{
-  margin-top: 20px;
   margin-bottom: 20px;
 }

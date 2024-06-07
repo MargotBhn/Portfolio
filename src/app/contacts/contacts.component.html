@@ -3,18 +3,18 @@
         <div class="text-center">
             <span class="project-title category-italic-font top-padding">Contact</span>
         </div>
-        <div class="row align-items-center justify-content-center top-padding">
+        <div class="row align-items-center top-padding justify-content-center">
             <div class="col-1">
-                <button  class="btn btn-link p-0 " src="mail-send-line.svg" (click)=toogleDisplay()>
+                <button  class="btn btn-link p-0  " src="mail-send-line.svg" (click)=toogleDisplay()>
                     <img
                     src="mail-send-line.svg"
                     alt="see mail"
                     class="collapse-mail-icon">
                 </button>
             </div>
-            <div class="col-1">
+            <div class="col-12 col-sm-1 text-center">
                <div [hidden]="hideMail">
-                    <span class="main-text">{{mail}}</span>
+                    <span class="main-text user-select-all">{{mail}}</span>
                 </div>
             </div>
         </div>
