@@ -2,14 +2,6 @@
   margin-bottom: 1em;
 }
 
-.project-border{
-  border: 3px dashed white;
-  /* border: 2px dashed var(--background); */
-
-  border-radius: 2%;
-  padding-top: 20px;
-}
-
 .spacer{
   padding-bottom: 3em;
 }
@@ -46,7 +38,8 @@
 
               
 .project-shadow{
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); */
+  box-shadow: 0 0 20px rgba(25, 44, 30, 0.7);
 }
 
 
@@ -71,7 +64,6 @@
 
 .link-icon-container{
   margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .link-icon{

@@ -1,13 +1,27 @@
-.resize-image{
+/* .resize-image{
     width: 300px;
     height: auto;
-}
+} */
 
 
 .box-shadow{
-    box-shadow: 50px 30px var(--alternative-bg-color);
+    box-shadow: 40px 30px var(--alternative-bg-color);
 }
 
+.underline{
+    position: relative;
+}
+
+.underline:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-top: solid 3px var(--light-bg-button);
+    left:0;
+    bottom: -6px;
+    border-radius: 50%;
+    height: 7px;
+}
 
 .type-writer {
     font-family: "Jost", sans-serif;

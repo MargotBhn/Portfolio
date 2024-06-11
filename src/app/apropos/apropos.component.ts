@@ -10,8 +10,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AProposComponent implements OnInit{
 
-  text1: string = "En formation à l’école 42, souhaitant poursuivre mon cursus en me spécialisant dans le Web, je suis à la recherche d’une alternance de 2 ans, ou d’un stage suivi d’une alternance de 1 an."
-  text2: string = "Ma reconversion professionnelle est motivée par le plaisir que je trouve à coder et ma capacité à résoudre des problèmes logiques."
+  text1: string = "Motivée par le plaisir que je retrouve à résoudre des problèmes logiques, j’ai décidé de me reconvertir dans la programmation. C’est ainsi que j’ai intégré 42, une école reconnue pour son modèle pédagogique innovant, basé sur l'apprentissage par projet, l'autonomie et la collaboration entre pairs, une approche que j'apprécie énormément et qui correspond parfaitement à ma manière d'apprendre."
+  text2: string = "Désirant poursuivre mon cursus dans le Web et Mobile, je suis à la recherche d’une alternance de 2 ans, ou d’un stage de 4 à 6 mois suivi idéalement d’une alternance de 1 an. Mon objectif est de mettre en pratique les compétences acquises et de continuer à me développer dans un environnement professionnel enrichissant.";
+  text3: string = "J’ai une préférence marquée pour le backend / fullstack, motivée par mon désir de contribuer au développement d'applications fonctionnelles et performantes. En tant que membre d'une équipe, je suis déterminée à apporter bien plus que mes compétences techniques. Mon esprit d'équipe et ma capacité à collaborer efficacement sont des atouts que je cultive humblement et que je souhaite mettre à profit dans un cadre professionnel stimulant.";
 
   hitList = [
     "Réussir à faire comprendre les équations du premier degré à des collégiens !",
