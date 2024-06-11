@@ -59,11 +59,6 @@
 }
 
 
-
-.row-margin{
-    margin-top: 3em;
-}
-
 @media (max-width: 580px) {
     .type-writer {
         font-size: large;

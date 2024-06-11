@@ -15,3 +15,8 @@
       transform: translateY(-10px);
     }
   }
+
+.padding-bottom
+{
+  padding-bottom: 50px;
+}

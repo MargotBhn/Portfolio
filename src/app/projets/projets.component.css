@@ -38,8 +38,8 @@
 
               
 .project-shadow{
-  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); */
-  box-shadow: 0 0 20px rgba(25, 44, 30, 0.7);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  /* box-shadow: 0 0 20px rgba(25, 44, 30); */
 }
 
 
